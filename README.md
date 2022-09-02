@@ -1,2 +1,1 @@
-# InternshipJPA
-# InternshipJPA
+# Internship - JPA+Hibernate
