@@ -5,7 +5,7 @@
              version="2.0">
     <persistence-unit name="persistence">
 
-        <class>entities.Employee</class>
+        <class>entities.Company</class>
 
         <properties>
             <!-- https://docs.jboss.org/hibernate/orm/6.1/userguide/html_single/Hibernate_User_Guide.html#configurations-database-connection -->
@@ -16,7 +16,7 @@
             <!-- https://docs.jboss.org/hibernate/orm/6.1/userguide/html_single/Hibernate_User_Guide.html#configurations-general -->
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
             <!-- https://docs.jboss.org/hibernate/orm/6.1/userguide/html_single/Hibernate_User_Guide.html#_sql_statement_logging -->
-            <property name="hibernate.show_sql"     value="true" />
+            <property name="hibernate.show_sql" value="true" />
             <!-- https://docs.jboss.org/hibernate/orm/6.1/userguide/html_single/Hibernate_User_Guide.html#configurations-hbmddl -->
             <property name="hibernate.hbm2ddl.auto" value="update" />
         </properties>
